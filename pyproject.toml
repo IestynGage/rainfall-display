@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rainfall-display"
+version = "0.1.0"
+description = ""
+authors = ["Iestyn"]
+readme = "README.md"
+packages = [{include = "rainfall_display"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
